@@ -11,11 +11,14 @@ Convert your Expression Map from Cubase to an usable ArticulationSet for Logic P
 
 <h3> Convert your files </h3>
 
-3) Put your Cubase files into the given source folder
+1) Create a folder "SourceFiles" and put it in the ExpressionMapToAritculationSet folder
+2) Create a folder "OutputFiles" and put it in the ExpressionMapToAritculationSet folder
+3) Put your Cubase .expressionmap files into the created source folder
 4) Run the main-method in Converter.java
-5) Now your Logic ArticulationSets are located in the output folder
+5) Now your Logic ArticulationSets are located in the "OutputFiles"
 
 <h3> Notes: </h3>
 
-1) Currently the implementation is not very generic, as every file in the input folder will have the "Note On" option enabled after parsing independently from how the file has been configured in Cubase.
-2) Currently only Cubase -> Logic Pro X Presets work.
+1) Do name the folders exactly like it is said, otherwise it won't work.
+2) Currently the implementation is not very generic, as every file in the input folder will have the "Note On" option enabled after parsing independently from how the file has been configured in Cubase.
+3) Currently only Cubase -> Logic Pro X Presets work.
